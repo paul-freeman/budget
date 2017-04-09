@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/accountDescriptionTitleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/account_description"/>
+
+    <EditText
+        android:id="@+id/accountDescriptionEditView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/checking"/>
+
+    <TextView
+        android:id="@+id/accountBalanceTitleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/account_balance"/>
+
+    <EditText
+        android:id="@+id/accountBalanceEditView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/add_account_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_account"/>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="Conservativeness"
+        android:summary="Determines the likelihood of under-budgeting"
+        android:key="conservativeness"
+        android:persistent="true"
+        android:defaultValue="@string/conservativeness_default"
+        />
+</PreferenceScreen>
