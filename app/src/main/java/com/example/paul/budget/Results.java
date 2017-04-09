@@ -22,13 +22,12 @@ public class Results extends Activity {
 
     public SQLiteDatabase db = null;
     private BudgetDatabaseHelper dbHelper = null;
-    private AsyncTask<Void, Void, Boolean> startDB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         dbHelper = new BudgetDatabaseHelper(this);
-        startDB = new StartDatabase().execute();
+        new StartDatabase().execute();
         setContentView(R.layout.activity_results);
     }
 

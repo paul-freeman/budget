@@ -8,6 +8,7 @@
         android:id="@+id/accountDescriptionTitleView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:labelFor="@+id/accountDescriptionEditView"
         android:text="@string/account_description"/>
 
     <EditText
@@ -22,6 +23,7 @@
         android:id="@+id/accountBalanceTitleView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:labelFor="@+id/accountBalanceEditView"
         android:text="@string/account_balance"/>
 
     <EditText
